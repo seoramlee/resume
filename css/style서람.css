@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 700px;
+    height: 150px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    background-color: rgba(rgb(237, 231, 231), green, blue, alpha);
+
+    position: sticky;
+    top: 10px;
+}
+
+header h1 {
+    margin: 10px;
+    padding: 10px;
+    
+    text-align: center;
+    font-family: "Gowun Dodum";
+}
+
+header h1 a {
+    text-decoration: none;
+    color: rgb(84, 142, 230);
+}
+
+header h1 a:hover {
+    color: rgb(41, 33, 45);
+}
+
+header h5 {
+    font-family: "Gowun Batang";
+    color: rgb(84, 179, 234);
+    text-align: right;
+}
+
+nav {
+    display: none;
+    width: 700px;
+    height: 50px;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+}
+
+nav ul li {
+    width: 20%;
+    height: 30px;
+    list-style-type: none;
+    background-color: aquamarine;
+    padding: 13px 0 7px 0;
+    text-align: center;
+    float: left;
+}
+
+nav ul li:hover {
+    background-color: rgb(70, 70, 81);
+    color: white;
+}
+
+nav ul li:nth-child(1) {
+    border-radius: 15px 0 0 15px;
+}
+
+nav ul li:nth-child(5) {
+    border-radius: 0 15px 15px 0;
+}
+
+#content {
+    width: 700px;
+    height: 700px;
+    margin: 0px auto 20px auto;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+#left_content {
+    width: 37%;
+    height: 700px;
+    background-color: cadetblue;
+    float: left;
+}
+
+#right_content {
+    width: 60%;
+    height: 700px;
+    background-color: rgb(148, 223, 194);
+    float: right;
+}
+
+.r {
+    margin: 10px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+    font-family: "IBM Plex Sans KR";
+}
+
+.r h2 {
+    border-left: 10px solid rgb(30, 127, 134);
+    padding-left: 10px;
+    margin: 10px 0 15px 0;
+}
+
+#r1 p, #r3 p {
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 10px;
+}
+
+#r2 ul li {
+    list-style-type: none;
+}
+
+#r3 p {
+    background-image: url(../images/img2.png);
+    background-size: 40px;
+}
+
+#r4 p {
+    margin-bottom: 15px;
+}
+
+#r5 p {
+    margin-bottom: 15px;
+}
+
+#pagetop {
+    position: fixed;
+
+    right: 100px;
+    bottom: 100px;
+
+}
